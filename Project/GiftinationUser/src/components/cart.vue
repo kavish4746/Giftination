@@ -243,21 +243,24 @@ export default {
         .then(res => {
           let response = res.data;
 
-          if (response.result === 1) {
+          if (response.result == 1) {
             this.order[0].o_id = Math.random() * 100;
-            console.log(this.total.toFixed() + "Total value in final");
-            this.order[0].o_price = this.total.toFixed();
+            console.log(this.total + "Total value in final");
+            this.order[0].o_price = this.total;
 
             this.order[0].fk_emailid = localStorage.getItem("emailid");
             profileclass
               .getEmpdetails(localStorage.getItem("emailid"))
               .then(doc => {
+                console.log("success");
                 this.order[0].fk_address = doc.data[0].u_address;
                 orderclass.addorder(this.order[0]).then(doc => {
-                  console.log(doc);
-                  console.log(doc.data._id);
+                  
+                console.log("success");
+                //  console.log(doc);
+              //    console.log(doc.data._id);
 
-                  console.log(this.cartarr.length);
+                //  console.log(this.cartarr.length);
                   for (let i = 0; i < this.cartarr.length; i++) {
                     this.suborder[i] = {
                       fk_o_id: this.order[0].o_id,
@@ -271,13 +274,15 @@ export default {
                     console.log(this.suborder[i]);
 
                     suborderclass.addsuborder(this.suborder[i]).then(doc1 => {
-                      console.log(doc1);
+                      
+                console.log("success");
+                   //   console.log(doc1);
                       this.$fire({
                         title: "Your Order is Successfully placed",
                         type: "success",
                         timer: 3000
                       }).then(r => {
-                        console.log(r.value);
+                   //     console.log(r.value);
                       });
                       this.cartarr = [];
                     });
@@ -287,7 +292,7 @@ export default {
                 cartclass
                   .deleteallitem(localStorage.getItem("emailid"))
                   .then(doc => {
-                    console.log(doc);
+                 //   console.log(doc);
                   });
 
                   alert("Payment Done !!!");

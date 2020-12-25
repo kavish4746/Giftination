@@ -1,0 +1,137 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:600,700';
+
+* {font-family: 'Open Sans', sans-serif;}
+.contain
+{
+	margin-top:100%;
+}
+img
+{
+	height:25%;
+	width:25%;
+	border-radius:100px;
+}
+.newtbl {
+  margin: auto;
+  min-width: 300px;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+
+.newtbl tr:first-child {
+  border-top: none;
+  background: cyan;
+  color: black;
+}
+
+.newtbl tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #f5f9fc;
+}
+
+.newtbl tr:nth-child(odd):not(:first-child) {
+  background-color: #ebf3f9;
+}
+
+.newtbl th {
+  display: none;
+}
+
+.newtbl td {
+  display: block;
+}
+
+.newtbl td:first-child {
+  margin-top: .5em;
+}
+
+.newtbl td:last-child {
+  margin-bottom: .5em;
+}
+
+.newtbl td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 120px;
+  display: inline-block;
+  color: #000;
+}
+
+.newtbl th,
+.newtbl td {
+  text-align: left;
+}
+
+.newtbl {
+  color: #333;
+  border-radius: .4em;
+  overflow: hidden;
+}
+
+.newtbl tr {
+  border-color: #bfbfbf;
+}
+
+.newtbl th,
+.newtbl td {
+  padding: .5em 1em;
+}
+@media screen and (max-width: 601px) {
+  .newtbl tr:nth-child(2) {
+    border-top: none;
+  }
+}
+@media screen and (min-width: 600px) {
+  .newtbl tr:hover:not(:first-child) {
+    background-color: #d8e7f3;
+  }
+  .newtbl td:before {
+    display: none;
+  }
+  .newtbl th,
+  .newtbl td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .newtbl th:first-child,
+  .newtbl td:first-child {
+    padding-left: 0;
+  }
+  .newtbl th:last-child,
+  .newtbl td:last-child {
+    padding-right: 0;
+  }
+  .newtbl th,
+  .newtbl td {
+    padding: 1em !important;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.4em;
+  color: #f2f2f2;
+}
+.container {
+  display: block;
+  text-align: center;
+}
+h3 {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 1.5em;
+  color: #cecece;
+}
+
+
+@media only screen and (device-width : 375px) 
+and (device-height : 812px) 
+{
+.contain
+{
+	margin-top:100em;
+}
+
+}

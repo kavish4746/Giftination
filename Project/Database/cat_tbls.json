@@ -1,0 +1,6 @@
+{"_id":{"$oid":"5fcf086bd6a0532958c226ea"},"cat_id":1,"cat_name":"Birthday cards","__v":0}
+{"_id":{"$oid":"5fcf0876d6a0532958c226eb"},"cat_id":2,"cat_name":"Gift Basket","__v":0}
+{"_id":{"$oid":"5fcf0881d6a0532958c226ec"},"cat_id":5,"cat_name":"Mugs","__v":0}
+{"_id":{"$oid":"5fcf08ddd6a0532958c226ed"},"cat_id":6,"cat_name":"Photo Frames","__v":0}
+{"_id":{"$oid":"5fcf08f4d6a0532958c226ee"},"cat_id":3,"cat_name":"Smoking Fountain","__v":0}
+{"_id":{"$oid":"5fcf0902d6a0532958c226ef"},"cat_id":4,"cat_name":"Teddy","__v":0}

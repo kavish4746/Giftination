@@ -1,0 +1,83 @@
+img
+{
+	height:30%;
+	width:70%;
+	border-radius:10px;
+	padding:10%;
+}
+
+.fieldset1
+{
+	background-color:whitesmoke;
+	font-family:"Georgia, 'Times New Roman', Times, serif";
+	font-size:25px;
+	
+	background-image:url("../images/logo.jpg");
+	background-repeat:no-repeat;
+}
+.fieldset2
+{
+	background-color:whitesmoke;
+	font-family:"Georgia, 'Times New Roman', Times, serif";
+	font-size:25px;
+	
+	background-image:url("../images/logo.jpg");
+	background-repeat:no-repeat;
+}
+.fieldset3
+{
+	font-size:25px;
+	font-family:"Georgia, 'Times New Roman', Times, serif";
+	box-shadow:0px 4px 4px 0px;	
+}
+
+
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 1366px)
+{
+img
+{
+	height:55%;
+	width:25%;
+	border-radius:180px;
+	padding:3%;
+	
+}
+
+.fieldset1
+{
+	background-color:whitesmoke;
+	font-family:"Georgia, 'Times New Roman', Times, serif";
+	font-size:25px;
+	box-shadow:0px 4px 4px 0px;
+	background-image:url("../images/logo.jpg");
+	background-repeat:no-repeat;
+	width:70%;
+	margin-left:15%;
+	height:30%;
+	padding:4%;
+}
+.fieldset2
+{
+	background-color:whitesmoke;
+	font-family:"Georgia, 'Times New Roman', Times, serif";
+	font-size:25px;
+	box-shadow:0px 4px 4px 0px;
+	background-image:url("../images/logo.jpg");
+	background-repeat:no-repeat;
+	width:70%;
+	margin-left:15%;
+	height:40%;
+	padding:4%;
+}
+.fieldset3
+{
+	font-size:25px;
+	font-family:"Georgia, 'Times New Roman', Times, serif";
+	box-shadow:0px 4px 4px 0px;
+	background-image:url("../images/logo.jpg");
+	background-repeat:no-repeat;
+	
+}
+}

@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5fcf10b5d6a0532958c22708"},"fk_bill_id":16.231067945851606,"fk_p_id":1,"fk_p_name":"Birthday Card - 1","fk_p_qty":1,"fk_p_price":80,"c_price":80,"__v":0}
+{"_id":{"$oid":"5fcf10b5d6a0532958c22709"},"fk_bill_id":16.231067945851606,"fk_p_id":2,"fk_p_name":"Birthday card - 2","fk_p_qty":1,"fk_p_price":90,"c_price":90,"__v":0}

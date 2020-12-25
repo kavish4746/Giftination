@@ -1,0 +1,247 @@
+
+.div1{
+           margin-left: 100px;
+}
+body{
+         background-image: url("back1.jpg");
+         background-repeat: no-repeat;
+         background-size: 1500px;
+ }
+.formdiv{
+	margin-left:160px;
+	margin-top:50px;
+	width: 800px;
+	height:550px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.formdiv fieldset{
+	border: none;
+	}
+.formdiv legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.formdiv label {
+	display: block;
+	margin-bottom: 8px;
+}
+.formdiv input[type="password"],
+/* formdiv input[type="radio"], */
+
+.formdiv input[type="text"],
+.formdiv input[type="date"],
+.formdiv input[type="datetime"],
+.formdiv input[type="email"],
+.formdiv input[type="number"],
+.formdiv input[type="search"],
+.formdiv input[type="time"],
+.formdiv input[type="url"],
+.formdiv textarea,
+.formdiv select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#8a97a0;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.formdiv input[type="radio"]
+{
+	height:15px;
+	width:15px;
+font-family: Georgia, "Times New Roman", Times, serif;
+	
+}
+.gen
+{
+font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+
+}
+
+
+
+
+.formdiv select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.formdiv .number {
+	background: #1abc9c;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.formdiv input[type="submit"],
+.formdiv input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #1abc9c;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.formdiv input[type="submit"]:hover,
+.formdiv input[type="button"]:hover
+{
+	background: #109177;
+}
+
+}
+
+
+
+
+/* @media only screen  */
+/* and (device-width : 375px)  */
+/* and (device-height : 812px)  */
+/* and (-webkit-device-pixel-ratio : 3) */
+/* { */
+/* .div1{ */
+           /* margin-left: 100px; */
+		   /* margin-top:500px; */
+/* } */
+/* body */
+/* { */
+         /* background-image: url("back1.jpg"); */
+         /* background-repeat: no-repeat; */
+         /* background-size: 2400px; */
+/* } */
+/* .formdiv{ */
+	/* margin-left:-20px; */
+	/* margin-top:80px; */
+	/* width: 800px; */
+	/* height:550px; */
+	/* padding: 10px 20px; */
+	/* background: #f4f7f8; */
+	/* padding: 20px; */
+	/* background: #f4f7f8; */
+	/* border-radius: 8px; */
+	/* font-family: Georgia, "Times New Roman", Times, serif; */
+/* } */
+/* .formdiv fieldset{ */
+	/* border: none; */
+	/* } */
+/* .formdiv legend { */
+	/* font-size: 1.4em; */
+	/* margin-bottom: 10px; */
+/* } */
+/* .formdiv label { */
+	/* display: block; */
+	/* margin-bottom: 8px; */
+/* } */
+/* .formdiv input[type="password"], */
+/* /* formdiv input[type="radio"], */ */
+
+/* .formdiv input[type="text"], */
+/* .formdiv input[type="date"], */
+/* .formdiv input[type="datetime"], */
+/* .formdiv input[type="email"], */
+/* .formdiv input[type="number"], */
+/* .formdiv input[type="search"], */
+/* .formdiv input[type="time"], */
+/* .formdiv input[type="url"], */
+/* .formdiv textarea, */
+/* .formdiv select { */
+	/* font-family: Georgia, "Times New Roman", Times, serif; */
+	/* background: rgba(255,255,255,.1); */
+	/* border: none; */
+	/* border-radius: 4px; */
+	/* font-size: 15px; */
+	/* margin: 0; */
+	/* outline: 0; */
+	/* padding: 10px; */
+	/* width: 100%; */
+	/* box-sizing: border-box;  */
+	/* background-color: #e8eeef; */
+	/* color:#8a97a0; */
+	/* box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset; */
+	/* margin-bottom: 30px; */
+/* } */
+/* .formdiv input[type="radio"] */
+/* { */
+	/* height:15px; */
+	/* width:15px; */
+/* font-family: Georgia, "Times New Roman", Times, serif; */
+	
+/* } */
+/* .gen */
+/* { */
+/* font-family: Georgia, "Times New Roman", Times, serif; */
+	/* font-size: 15px; */
+
+/* } */
+
+
+	
+
+/* .formdiv select{ */
+	/* -webkit-appearance: menulist-button; */
+	/* height:35px; */
+/* } */
+/* .formdiv .number { */
+	/* background: #1abc9c; */
+	/* color: #fff; */
+	/* height: 30px; */
+	/* width: 30px; */
+	/* display: inline-block; */
+	/* font-size: 0.8em; */
+	/* margin-right: 4px; */
+	/* line-height: 30px; */
+	/* text-align: center; */
+	/* text-shadow: 0 1px 0 rgba(255,255,255,0.2); */
+	/* border-radius: 15px 15px 15px 0px; */
+/* } */
+
+/* .formdiv input[type="submit"], */
+/* .formdiv input[type="button"] */
+/* { */
+	/* position: relative; */
+	/* display: block; */
+	/* padding: 19px 39px 18px 39px; */
+	/* color: #FFF; */
+	/* margin: 0 auto; */
+	/* background: #1abc9c; */
+	/* font-size: 18px; */
+	/* text-align: center; */
+	/* font-style: normal; */
+	/* width: 100%; */
+	/* border: 1px solid #16a085; */
+	/* border-width: 1px 1px 3px; */
+	/* margin-bottom: 10px; */
+/* } */
+/* .formdiv input[type="submit"]:hover, */
+/* .formdiv input[type="button"]:hover */
+/* { */
+	/* background: #109177; */
+/* }	 */
+/* } */
